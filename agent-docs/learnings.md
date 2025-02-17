@@ -1,7 +1,3 @@
----
-description: 
-globs: 
----
 # Learnings
 
 ## Memories

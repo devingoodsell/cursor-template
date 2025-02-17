@@ -1,6 +1,2 @@
----
-description: 
-globs: 
----
 # Project Management
 This document is a structured roadmap that outlines the objective, milestones, and tasks, and detailed steps to achieve the objective. It serves as a clear reference for an agent to understand, track, and manage progress while ensuring that all necessary steps are addressed.
