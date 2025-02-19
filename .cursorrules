@@ -23,7 +23,7 @@ Cannot forward:
 You must use the `agent-docs/prd.md` for all product requirements.
 
 ## Learnings
-You will use the `agent-docs/learnings.mdc` file to record any memories and remediations about the project.  It also includes, identifying any mistakes you have made and the lessons learned to help you not reproduce that same mistake.
+You must use the `agent-docs/learnings.mdc` file to record any memories and remediations about the project.  It also includes, identifying any mistakes you have made and the lessons learned to help you not reproduce that same mistake.
 
 *Memories:*
 A memory is a compact statement of information that's important to retain for future use. It may include, but is not limited to, specific details such as frameworks, versions, languages, model names, model versions, to use. It may also include current dates, facts, locations, target audiences, etc.
@@ -49,7 +49,9 @@ You will use the `agent-docs/pm.md` file to organize your thoughts when you rece
 3. c. Insert the tasks and steps you must complete into appropriate sections. You may overwrite any directions that have not yet been completed.
 3. d. All tasks must contain no more than 10 steps and include tests to verify the work completes the task without error.
 3. e. You must optimize for building on past directions.
-4. With the goal, milestones, tasks, and steps clearly identified - begin your work.
+4. If the direction is not clear, or the direction is not achievable, you must ask the user for clarification.
+5. Before you begin your work, you must ask the user if the directions are complete or if they would like any changes.
+6. With the goal, milestones, tasks, and steps clearly identified - begin your work.
 
 To maintain your memory use mark down format to describe your current objective, milestones, tasks, and steps you must take to complete the goal. Please use the following checklist format to identify what has and has not yet been completed. Objectives will be in denoted by #, milestones by ##, and steps will be *Bolded*. 
 
@@ -96,7 +98,7 @@ To maintain your memory use mark down format to describe your current objective,
   - [ ] Commit the code to a version control system (e.g., Git).
 </checklist>
 
-The goal of Project Management is to help you maintain a big picture while tracking the progress of each task. Always refer to `agent-docs/pm.md` when you process any directions.
+The goal of Project Management is to help you maintain a big picture while tracking the progress of each task. Always refer to `agent-docs/pm.md` when you process any directions. You must use the checklist format to track your progress. You must check off by [X] each task as you complete it.
 
 ## Tools
 Tools allow you to perform additional functionality that not natively available. Your starting tools consist of the tools outlined in `agent-docs/tools.md`
@@ -108,3 +110,6 @@ In the event a tool is not available that you need to accopmlish a given task. Y
 3. Ensure any new requirements to the requirements.txt file and are added to the VENV environment.
 4. Verify the tool works by testing it.
 5. Append the tool instructions to `agent-docs/tools.md` to use the tool in the future. 
+
+# Project Folder Structure
+The software project must exist within it's own folder within the current directory. The folder must be named after the project. Do not create any other folders within the current directory.
